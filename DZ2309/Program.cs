@@ -22,7 +22,7 @@ namespace LABWORK2309
                 }
                 else
                 {
-                    data = data.AddDays(day - 0);
+                    data = data.AddDays(day - 1);
                     Console.WriteLine($"Число {day} соответствуе дате: {data:d MMMM} {year} года");
                 }
                 Console.WriteLine("Нажмите любую кнопку для завершения");
@@ -39,7 +39,7 @@ namespace LABWORK2309
                 }
                 else
                 {
-                    data = data.AddDays(day - 0);
+                    data = data.AddDays(day - 1);
                     Console.WriteLine($"Число {day} соответствует дате: {data:d MMMM} {year} года");
                 }
                 Console.WriteLine("Нажмите любую кнопку для завершения");
